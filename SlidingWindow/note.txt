@@ -1,0 +1,39 @@
+
+
+Core Idea:
+- suppose you have an array and we want to analyze
+- create a smaller window and move it around the array to check criteras
+- Hence the word sliding window
+- the window's area is dynamic so it can increase and decrease in length
+
+
+[    <--  [ W I N D O W ]  -->  ]
+
+
+Approaches:
+
+- Fixed Lenght Window
+    - the lenght is fixed and moves left to right across the array 
+- Dynamically Resizable Windows
+    - instead of just sliding the smaller window left to right start from left
+        and increase the size of the window making it bigger and bigger to see if it fits the critera
+        then change the left position a bit to the right. Think of a caterpillar moving up a tree
+
+
+
+
+
+Common Types of Problems:
+- a constant metric : some attribute of the sum the # of unique elements,
+                        the frequency of a specific element or another attribute
+
+
+- numeric restriction : what is the constraint metric should be for subarray to be considered valid
+
+
+
+Examples:
+- Find the longest subarray with a sum less than or equal to k
+- Find the longest substring that has the most "0"
+- Find the number of subarrays that have the product less than k
+
